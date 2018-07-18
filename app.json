@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/video/video",
+    "pages/activity/activity",
+    "pages/user/user"
+  ],
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#d81e06",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/newsActive.png",
+        "iconPath": "images/news.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/videoActive.png",
+        "iconPath": "images/video.png",
+        "pagePath": "pages/video/video",
+        "text": "视频"
+      },
+      {
+        "selectedIconPath": "images/activityActive.png",
+        "iconPath": "images/activity.png",
+        "pagePath": "pages/activity/activity",
+        "text": "赚钱"
+      },
+      {
+        "selectedIconPath": "images/userActive.png",
+        "iconPath": "images/user.png",
+        "pagePath": "pages/user/user",
+        "text": "个人"
+      }
+    ]
+  },
+  
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "onReachBottomDistance":50
+  }
+}
